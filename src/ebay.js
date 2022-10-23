@@ -20,7 +20,7 @@ async function checkStock () {
     await browser.close()
 }
 
-checkStock()
+module.exports = { checkStock }
 
 //https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=1001+spikes+videogame&_sacat=0
 //https://www.ebay.com/sch/i.html?_nkw=pokemon&_trksid=p2380057.m4084.l1313
